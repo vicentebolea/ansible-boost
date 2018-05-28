@@ -43,7 +43,7 @@
   when: boost_prefix is defined
 
 - name: Make Boost
-  command: chdir={{ boost_work_dir }}/{{ boost_build_dir }} ./b2
+  command: chdir={{ boost_work_dir }}/{{ boost_build_dir }} ./b2 -j8
 
 - name: Insall Boost
   sudo: yes
