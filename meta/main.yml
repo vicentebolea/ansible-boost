@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Toshiya Kawasaki
+  author: Vicente Adolfo Bolea Sanchez
   description: Install Boost C++ libraries from source.
   license: BSD
   min_ansible_version: 1.4
